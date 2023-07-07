@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whey Protein - BestGYM</title>
+  <link rel="stylesheet" href="../css/home.css">
+  <script type="text/javascript" src="review.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <nav>
+      <ul>
+
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../suplements.html">Food & Supplements</a></li>
+        <li><a href="../equipment.html">Equipment</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section id="product-details">
+      <h1>Whey Protein 2.5kg</h1>
+      <p>Best Whey protein to help you hit your macro goals.</p>
+      <img src="../img/protein.jpeg" alt="Product Image">
+      <br> <p3>Whey protein is a mixture of proteins isolated from whey, the liquid material created as a by-product of cheese 
+        production. <br> The proteins consist of α-lactalbumin, β-lactoglobulin, serum albumin and immunoglobulins.</p3>
+      <h2>Price: 40$</h2>
+
+      <h2>Add a Review </h2>
+
+      <form id="review-form" onsubmit="addItem(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" rows="5" required></textarea>
+
+        <input type="submit" value="Submit Review" class="btn">
+      </form>
+      
+      <h2>Buy Now</h2>
+
+      <form id="purchase-form" onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="pname" name="name" required>
+
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <input type="submit" value="Buy Now" class="btn">
+      </form>
+
+      <h2>Customer Reviews</h2>
+      <ul id="reviews-list">
+        
+      </ul>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2023 BestGYM. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
+
+

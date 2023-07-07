@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pull Up Bar - BestGYM</title>
+  <link rel="stylesheet" href="../css/home.css">
+  <script type="text/javascript" src="review.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <nav>
+      <ul>
+
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../suplements.html">Food & Supplements</a></li>
+        <li><a href="../equipment.html">Equipment</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section id="product-details">
+      <h1>Pull Up Bar</h1>
+      <p>Get your pull up game up with the best bar.</p>
+      <img src="../img/pullUpBar.jpeg" alt="Product Image">
+      <br> <p3>There are many ways to measure your capabilities when it comes to fitness, and pull-ups are the 
+        perfect example of an exercise that can be used as a benchmark. Whether you want to work on improving your 
+        physique, getting stronger, or simply want to reach a certain number of reps, no one can deny the many benefits 
+        of pull-ups. <br>
+        Moreover, putting in the work to learn how to properly do a pull-up and building the upper body and back 
+        strength you need to do them is worth it—not only is it satisfying to check the goal off your list, but the 
+        benefits of pull-ups make them one of the most efficient and effective strengthening exercises to add to your 
+        routine to boost your overall fitness and strengthen and sculpt your body. Plus, a wide and strong back is an 
+        easy way to attract that certain someone you hope to impress.</p3>
+      <h2>Price: 60$</h2>
+
+      <h2>Add a Review </h2>
+      <form id="review-form" onsubmit="addItem(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" rows="5" required></textarea>
+
+        <input type="submit" value="Submit Review" class="btn">
+      </form>
+      
+      <h2>Buy Now</h2>
+      <form id="purchase-form" onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="pname" name="name" required>
+
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <input type="submit" value="Buy Now" class="btn">
+      </form>
+
+      <h2>Customer Reviews</h2>
+      <ul id="reviews-list">
+        
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 BestGYM. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>

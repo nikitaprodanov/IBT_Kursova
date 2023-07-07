@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dumbbell 32kg - BestGYM</title>
+  <link rel="stylesheet" href="../css/home.css">
+  <script type="text/javascript" src="review.js"></script>
+</head>
+
+<body>
+
+  <header>
+
+    <nav>
+      <ul>
+
+        <li><a href="../home.html">Home</a></li>
+        <li><a href="../suplements.html">Food & Supplements</a></li>
+        <li><a href="../equipment.html">Equipment</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+    <section id="product-details">
+      <h1>Dumbbell 32kg</h1>
+      <p>No gym no problem. Get this dumbbell for home workouts.</p>
+      <img src="../img/dumbbell.jpeg" alt="Product Image">
+      <br> <p3>Dumbbells that can be used to perform variety of exercises to help you achieve your dream physique.</p3>
+      <h2>Price: 16$</h2>
+
+      <h2>Add a Review </h2>
+      <form id="review-form" onsubmit="addItem(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="review">Review:</label>
+        <textarea id="review" name="review" rows="5" required></textarea>
+
+        <input type="submit" value="Submit Review" class="btn">
+      </form>
+
+      <h2>Buy Now</h2>
+      <form id="purchase-form" onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label>
+        <input type="text" id="pname" name="name" required>
+
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <input type="submit" value="Buy Now" class="btn">
+      </form>
+
+      <h2>Customer Reviews</h2>
+      <ul id="reviews-list">
+        
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 BestGYM. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
